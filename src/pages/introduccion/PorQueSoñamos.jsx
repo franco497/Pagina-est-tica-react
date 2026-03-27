@@ -3,41 +3,67 @@ import Layout from "../../components/Layout";
 const PorQueSoñamos = () => {
   return (
     <Layout>
-      <h1>¿Por qué soñamos?</h1>
+      <h1>¿Porqué soñamos?</h1>
       <p>
-        A lo largo de la historia, se han propuesto diversas teorías sobre la
-        función de los sueños:
+        Si el hecho de dormir es ya un gran misterio, imagina lo que puede
+        llegar a ser el soñar, esa inmersión en otros mundos, con sus propios
+        personajes, ocurrencias, y reglas muy diferentes a las que operan en
+        nuestra realidad de la vigilia.
+        <br />
+        <br /> Existen muchas teorías para explicar el fenómeno de los sueños, e
+        incluso entre partidarios de una misma corriente, por ejemplo la
+        científica, no se logran poner de acuerdo.
+        <br />
+        <br />
+        Teniendo personalmente un visión científica, la versión que más me
+        convence fue una interpretación que leí alguna vez en una publicación
+        académica de EEUU, proveniente de una de sus universidades de prestigio,
+        que planteaba lo siguiente: el dormir es una mejora adaptativa o
+        evolutiva del simple descanso - en los mamíferos es una "mejora"
+        producto de la evolución desde el simple descanso cerrando los ojos al
+        sueño profundo de onda lenta - se ahorra energía y el descanso es mucho
+        más profundo. El sueño con contenidos, el "soñar", no aparece en el mapa
+        terrestre de inmediato, sino que es una nueva "mejora" o "upgrade" a los
+        mamíferos que se especula tiene relación con la integración de las
+        experiencias diarias.
+        <br />
+        <br /> En el caso de los seres humanos esta capacidad viene además con
+        la posibilidad de recordar lo soñado, lo cual es una nueva ventaja dada
+        la rica información psicológica que podemos recoger de estos recuerdos.{" "}
+        <br />
+        <br />
+        El "papel" del investigador además señala la posibilidad de nuevas
+        "mejoras" que podrían venir, y especula que la lucidez onírica vendría a
+        ser el próximo salto en la evolución del sueño y el dormir, dadas las
+        tremendas ventajas comparativas que la experiencia puede dar a quien la
+        experimenta.
+        <br /> Otras visiones respecto a los sueños son:
+        <br />
+        <h3>La mirada escéptica</h3> Los sueños no son más que el resultado de
+        impulsos aleatorios de las neuronas mientras dormimos, que se producen
+        debido al trabajo organizador del cerebro durante la noche.{" "}
+        <h3>La mirada psicológica</h3> Los sueños son una ventana al
+        inconsciente, que se expresa mientras dormimos dado que los filtros de
+        la vigilia no están presentes. Los sueños son una válvula de escape del
+        inconsciente, y se expresan en símbolos, que son su lenguaje propio.
+        Para entenderlos hay que descifrar su mensaje mediante la
+        interpretación.<h3> La ciencia </h3> La versión con la comencé este
+        apartado no es la más aceptada por la mayoría de los científicos. En
+        general se piensa que los sueños son producto del cerebro intentando
+        encontrar un sentido a los impulsos aleatorios que son bombardeados
+        durante el sueño REM. En todo caso la misma ciencia acepta que son todas
+        las proposiciones solo teorías, dado que aún no se sabe porqué soñamos
+        ni qué son los sueños.<h3>La espiritualidad</h3> En los sueños podemos
+        recibir mensajes tanto de nuestro propio inconsciente, como de otros
+        planos superiores, donde podemos obtener visiones espirituales, y lograr
+        la comunión con Dios. La penetración en este influjo de información y
+        energía nos puede ayudar y guiar en nuestra búsqueda espiritual. En los
+        Yoga Sutras, texto fundamental de la práctica del Yoga, se señala la
+        meditación sobre los sueños como un medio para la iluminación. Como
+        veremos después en nuestra sección de historia, la práctica del sueño
+        lúcido siempre ha estado presente en las diversas prácticas espirituales
+        alrededor del mundo.
       </p>
-      <h2>Teorías psicológicas</h2>
-      <ul>
-        <li>
-          <strong>Sigmund Freud:</strong> Los sueños son la "vía real" hacia el
-          inconsciente, representando deseos reprimidos.
-        </li>
-        <li>
-          <strong>Carl Jung:</strong> Los sueños compensan aspectos desatendidos
-          de la personalidad y contienen arquetipos universales.
-        </li>
-        <li>
-          <strong>Teoría de la simulación de amenazas:</strong> Los sueños nos
-          permiten practicar respuestas a situaciones peligrosas.
-        </li>
-      </ul>
-      <h2>Teorías neurocientíficas</h2>
-      <ul>
-        <li>
-          <strong>Consolidación de memoria:</strong> Los sueños ayudan a
-          procesar y almacenar recuerdos del día.
-        </li>
-        <li>
-          <strong>Limpieza cerebral:</strong> Durante el sueño, el cerebro
-          elimina toxinas acumuladas.
-        </li>
-        <li>
-          <strong>Regulación emocional:</strong> Los sueños nos ayudan a
-          procesar experiencias emocionales intensas.
-        </li>
-      </ul>
     </Layout>
   );
 };

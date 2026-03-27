@@ -3,28 +3,51 @@ import Layout from "../../components/Layout";
 const CienciaYLosSueños = () => {
   return (
     <Layout>
-      <h1>Ciencia y los sueños</h1>
+      <h1>La ciencia y los sueños lúcidos</h1>
       <p>
-        La neurociencia moderna ha logrado avances significativos en la
-        comprensión de los sueños lúcidos. A través de estudios con
-        electroencefalogramas (EEG) y resonancias magnéticas funcionales (fMRI),
-        los científicos han podido identificar los patrones cerebrales asociados
-        con la lucidez onírica.
-      </p>
-      <h2>Investigaciones clave</h2>
-      <p>
-        El Dr. Stephen LaBerge en la Universidad de Stanford fue pionero en la
-        investigación científica de los sueños lúcidos durante las décadas de
-        1970 y 1980. Desarrolló técnicas como la MILD (Inducción Mnemotécnica de
-        Sueños Lúcidos) y demostró que los sueños lúcidos son un estado de
-        conciencia verificable científicamente.
-      </p>
-      <h2>Actividad cerebral durante los sueños lúcidos</h2>
-      <p>
-        Durante un sueño lúcido, el cerebro muestra una actividad híbrida:
-        combina la activación típica del sueño REM con áreas asociadas a la
-        metacognición y la autoconciencia, particularmente en la corteza
-        prefrontal dorsolateral.
+        Hasta la década de los 70's, hablar de los sueños lúcidos era un asunto
+        relegado solo a cerrados círculos esotéricos y tradiciones
+        contemplativas, en donde ni siquiera a los devotos novatos se les
+        hablaba abiertamente sobre el tema; era una práctica solo para
+        verdaderos iniciados.
+        <br />
+        <br /> La primera vez que se abordó el tema de manera científica, fue
+        para 1968, en el libre "Lucid dreams", escrito por Celia Green. En el
+        texto se analizó la experiencia de sujetos experimentales como de la
+        literatura, y se pudo concluir que la lucidez onírica era una
+        experiencia válida, diferente a la de un sueño ordinario. Además
+        especuló sobre una serie de asuntos que resultarían ser ciertos, como
+        por ejemplo la asociación del fenómeno con la fase REM del sueño.
+        <br />
+        <br /> Aún la ciencia no reconocía el fenómeno como válido o digno de
+        estudio; se pensaba que los sueños lúcidos no eran más que alucinaciones
+        producidas por relajación en la vigilia. No se podía aceptar la formula
+        conciencia + sueño, o era lo uno, o lo otro, pero no todo a la vez.
+        <br />
+        <br /> Solo durante la década de los 70's, surgieron evidencias a favor
+        del fenómeno, cuando los investigadores como parapsicólogo Keith Hearne
+        utilizaron el hecho de que los músculos de los ojos continúan activos
+        durante el sueño REM (a diferencia del resto del cuerpo, que en
+        condiciones de sueño normal queda paralizado), para realizar pruebas con
+        soñadores lúcidos en donde les pedían que replicaran un determinado
+        patrón de movimiento de ojos durante la experiencia onírica. Luego se
+        verificaba el patrón con lo acordado, junto con los demás datos
+        biológicos registrados del voluntario, para así comprobar que
+        efectivamente se encontraba soñando mientras daba las señales.
+        <br />
+        <br /> Además estos movimientos "pre-acordados" servían, y aún sirven,
+        para investigar que es exactamente lo que ocurre en el cerebro del
+        soñador justo en el momento en que el sueño se torna "lúcido". De todas
+        maneras, durante esa época los resultados de los experimentos no fueron
+        ampliamente distribuidos ni reconocidos.
+        <br />
+        <br />
+        Solo durante los años 80, se estableció consenso científico sobre la
+        validez del fenómeno, cuando Stephen Laberge, de la Universidad de
+        Stanford, llevo a cabo sus experimentos en laboratorios del sueño, como
+        parte de su disertación de doctorado. LaBerge continua sus experimentos
+        en la actualidad en aquella Universidad, y se han refinado ampliamente
+        los métodos para establecer y catalogar adecuadamente el fenómeno.
       </p>
     </Layout>
   );

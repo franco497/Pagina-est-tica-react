@@ -3,26 +3,56 @@ import Layout from "../../components/Layout";
 const PrimerosPasos = () => {
   return (
     <Layout>
-      <h1>Primeros pasos hacia los sueños lúcidos</h1>
+      <h1>Cómo recordar los sueños</h1>
       <p>
-        Para comenzar tu viaje hacia los sueños lúcidos, es importante
-        establecer una base sólida. Aquí tienes los pasos fundamentales:
-      </p>
-      <h2>1. Mejora tu higiene del sueño</h2>
-      <p>
-        Dormir lo suficiente (7-9 horas) y mantener horarios regulares es
-        esencial para tener sueños REM prolongados y vívidos.
-      </p>
-      <h2>2. Desarrolla memoria onírica</h2>
-      <p>
-        La capacidad de recordar sueños es fundamental. Un buen soñador lúcido
-        primero debe ser un buen recordador de sueños.
-      </p>
-      <h2>3. Practica la atención plena</h2>
-      <p>
-        La lucidez en los sueños está directamente relacionada con la conciencia
-        en la vida diaria. La práctica de mindfulness puede mejorar tu capacidad
-        de reconocer estados alterados de conciencia.
+        Uno de los primeros pasos en el camino de la lucidez onírica, consiste
+        en el recordar lo soñado durante la noche. Esto porque de partida, ¿de
+        qué serviría tener un sueño lúcido si después no vamos a recordar la
+        experiencia?.
+        <br />
+        <br />
+        Comúnmente las personas no recuerdan casi nada de lo que ocurre durante
+        la noche, a pesar de ser tremendamente significativo, no porque sea algo
+        extremadamente difícil, sino que porque nuestra atención está enfocada
+        en las actividades diurnas y externas que realizamos. Esto es normal al
+        comienzo, y esta "traba" al mundo de los sueños puede ser fácilmente
+        superada enfocando nuestra atención un poco más hacia adentro.
+        <br />
+        <br />
+        Antes de dormir, lo primero que debemos hacer es aclarar un poco la
+        mente. Esto lo puedes lograr enfocando por unos minutos tu atención en
+        la respiración, dejando que los pensamientos pasen por tu cabeza sin
+        retenerlos o elucubrar sobre ellos, como si fueran nubes que pasan por
+        el cielo de tu conciencia. Esto es una técnica clásica de meditación. Si
+        lo anterior no te resulta cómodo puedes intentar visualizar algún lugar
+        agradable e intentar disfrutar y relajarte en ese lugar mental, o puedes
+        rezar de acuerdo a tu credo religioso. Todas estas cosas ayudan a
+        despejar la mente.
+        <br />
+        <br />
+        Una vez que sientas que la actividad "frenética" de la mente ha
+        decantado un poco, y sientes cierta claridad interior, el siguiente paso
+        es proponerte recordar tus sueños cuando despiertes, o más bien,
+        proponerte "recordar" que tienes que "recordar" tus sueños al despertar;
+        suena bastante extraño, pero es así - al comienzo es típico proponerse
+        recordar los sueños pero al despertar se nos olvida, y después de un
+        rato después de haber despertado es muchísimo más difícil el
+        procedimiento. Un "tip" muy útil es que al despertar, intentemos por
+        unos momentos permanecer completamente inmóviles mientras recordamos
+        nuestros sueños.
+        <br />
+        <br />
+        Está demostrado que de esta manera los cambios que se dan en nuestros
+        cuerpos y cerebros al pasar del sueño a la vigilia se dan de manera más
+        gradual, lo que facilita el acceso a la memoria de los sueños; los
+        cambios bruscos en la química de nuestro cerebro hacen difícil recordar
+        nuestros sueños, tal como se ha visto en los laboratorios del sueño. Por
+        último, un consejo importante es no decepcionarse con los primeros
+        resultados. Es normal al comienzo solo recordar pequeños fragmentos o
+        sensaciones. Con el tiempo y la práctica es posible recordar no solo
+        sueños completos, sino que varios sueños durante la noche, hasta cuatro
+        o cinco, con todos los detalles. Es un arte que requiere de práctica y
+        disciplina.
       </p>
     </Layout>
   );

@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -19,6 +21,14 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  // Función para determinar si un enlace está activo
+  const isActiveLink = (path) => {
+    if (path === "/") {
+      return location.pathname === "/";
+    }
+    return location.pathname.startsWith(path);
+  };
+
   return (
     <header className="header">
       <div className="nav-container">
@@ -34,29 +44,60 @@ const Header = () => {
         <nav className="main-navbar">
           <ul id="main-nav-list" className={isMenuOpen ? "show" : ""}>
             <li>
-              <a href="/" onClick={closeMenu}>
+              <NavLink
+                to="/"
+                onClick={closeMenu}
+                className={({ isActive }) =>
+                  isActive ? "active-main-link" : ""
+                }
+                end
+              >
                 Inicio
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/introduccion" onClick={closeMenu}>
+              <NavLink
+                to="/introduccion"
+                onClick={closeMenu}
+                className={({ isActive }) =>
+                  isActive ? "active-main-link" : ""
+                }
+              >
                 Introducción
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/primeros-pasos" onClick={closeMenu}>
+              <NavLink
+                to="/primeros-pasos"
+                onClick={closeMenu}
+                className={({ isActive }) =>
+                  isActive ? "active-main-link" : ""
+                }
+              >
                 Primeros pasos
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/tecnicas" onClick={closeMenu}>
+              <NavLink
+                to="/tecnicas"
+                onClick={closeMenu}
+                className={({ isActive }) =>
+                  isActive ? "active-main-link" : ""
+                }
+              >
                 Técnicas
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/actividades" onClick={closeMenu}>
+              <NavLink
+                to="/actividades"
+                onClick={closeMenu}
+                className={({ isActive }) =>
+                  isActive ? "active-main-link" : ""
+                }
+              >
                 Actividades
-              </a>
+              </NavLink>
             </li>
           </ul>
         </nav>

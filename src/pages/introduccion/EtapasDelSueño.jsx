@@ -3,41 +3,101 @@ import Layout from "../../components/Layout";
 const EtapasDelSueño = () => {
   return (
     <Layout>
-      <h1>Etapas del sueño</h1>
+      <h1>¿Porqué dormimos? Las etapas del sueño</h1>
       <p>
-        El sueño humano se divide en ciclos de aproximadamente 90 minutos, cada
-        uno compuesto por diferentes etapas:
-      </p>
-      <h2>Fase NREM (Non-Rapid Eye Movement)</h2>
-      <ul>
-        <li>
-          <strong>Etapa 1 (N1):</strong> Transición entre vigilia y sueño.
-          Duración de 1-7 minutos.
-        </li>
-        <li>
-          <strong>Etapa 2 (N2):</strong> Sueño ligero. Ocupa aproximadamente el
-          50% del tiempo total de sueño.
-        </li>
-        <li>
-          <strong>Etapa 3 (N3):</strong> Sueño profundo o de ondas lentas.
-          Esencial para la recuperación física.
-        </li>
-      </ul>
-      <h2>Fase REM (Rapid Eye Movement)</h2>
-      <p>
-        Es la etapa donde ocurren la mayoría de los sueños vívidos. Se
-        caracteriza por:
-      </p>
-      <ul>
-        <li>Movimientos oculares rápidos</li>
-        <li>Parálisis muscular (atonía REM)</li>
-        <li>Aumento de la actividad cerebral</li>
-        <li>Aceleración del ritmo cardíaco y respiratorio</li>
-      </ul>
-      <p>
-        Los sueños lúcidos ocurren típicamente durante la fase REM, aunque se
-        han reportado casos en otras etapas del sueño.
-      </p>
+        Por increíble que parezca, si bien se sabe bastante sobre lo que ocurre
+        biológica y neurológicamente mientras dormimos, la verdadera naturaleza
+        de esta interrogante es aún un misterio; no se sabe con exactitud por
+        que dormimos y soñamos. Veamos lo que si se sabe sobre esto.
+        <br />
+        <br />
+        Se especula que necesitamos dormir para digerir y categorizar las
+        actividades realizadas durante el día; durante la noche descansamos
+        nuestra mente y reparamos el cuerpo, a través de este descanso
+        prolongado.
+        <br />
+        <br />
+        En experimentos controlados, se ha visto que si se impide a un grupo de
+        personas dormir, los síntomas que se presentan van desde una disminución
+        en los niveles de alerta, hasta una total confusión mental si la
+        deprivación de sueño se sostiene en el tiempo.
+        <br />
+        <br />
+        Ahora aprendamos algo sobre las etapas del sueño, que como veremos es un
+        conocimiento que nos ayudará en nuestro camino a la lucidez.
+        <br />
+        <h3>Las etapas del sueño</h3>
+        Es posible medir la actividad del cerebro midiendo su actividad
+        eléctrica, usando electrodos en contacto con el cuero cabelludo. De esta
+        manera se habla de ondas cerebrales, que han mostrado tener una clara
+        correlación con el estado de conciencia de una persona, y esta medición
+        de la actividad cerebral además de ser útil para detectar patologías y
+        desórdenes neurológicos, ha servido para estudiar el sueño y sus ciclos.
+        <br />
+        <br /> Las ondas cerebrales medidas de esta manera, desde las de mayor a
+        menor frecuencia se caracterizan como alfa, beta, theta y delta. En
+        realidad siempre producimos ondas en todas las frecuencias, pero
+        dependiendo de nuestro estado de conciencia, es predominante una
+        determinada frecuencia.
+        <br />
+        <br /> Al estar despiertos, nuestra actividad cerebral se caracteriza
+        por las ondas "beta". Al acostarnos para dormir, lo primero que ocurre
+        al cerrar los ojos y relajarnos es un aumento en la frecuencia "alfa".
+        Después de un tiempo, nuestros ojos comienzan a moverse lentamente
+        detrás de nuestros párpados.
+        <br />
+        <h3>Etapa 1 - el estado hipnogógico</h3>
+        En este estado nos sentimos relajados y ligeros. Se puede además tener
+        la sensación de estar cayendo, y además se pueden ver imágenes
+        (imaginería hypnogógica), colores, o escuchar sonidos.
+        <br />
+        <h3> Etapa 2 - sueño ligero</h3>
+        Estamos dormidos, pero podemos ser fácilmente despertados. Las ondas
+        theta comienzan a ser predominantes. Esta etapa dura unos minutos.
+        <br />
+        <h3>Etapas 3 y 4 - sueño profundo</h3> Estas etapas son conocidas como
+        el sueño profundo, o el sueño de onda lenta, debido a la presencia de
+        frecuencias en el rango delta, el menor. Durante esta etapa se secreta
+        la hormona del crecimiento, y se especula que reparamos nuestro cuerpo
+        durante esta fase. <br /> Luego de completar estas etapas, regresamos a
+        la número 3 y 2, lo que lleva entre 1 hora y media a dos horas.
+        <br />
+        <h3>Etapa 5 - sueño REM</h3> A esta etapa también se le conoce como
+        "paradójica", dado que por los signos biológicos podría parecer que
+        estamos despiertos; un aumento en la presión sanguínea, aumento en el
+        pulso, y además nuestros ojos comienzan a moverse rápidamente bajo
+        nuestros párpados (REM quiere decir rapid eye movement, o en español
+        movimiento rápido de ojos).
+        <br />
+        <br /> Durante la etapa REM es donde tenemos los sueños más vívidos y
+        recordables; en experimentos controlados, al despertar a las personas
+        durante esta etapa, estas reportan haber estado soñando y pueden
+        describir las ocurrencias oníricas con un relativo detalle. En cambio,
+        por ejemplo, al despertar a un individuo desde la fase del sueño
+        profundo de onda lenta, este suele despertar desorientado temporal y
+        espacialmente, sin una clara memoria de lo acontecido. <br />
+        <br /> Por lo anterior es que a la etapa REM se le asocia con el soñar,
+        pero en realidad podemos tener sueños durante las demás etapas, por lo
+        menos durante las menos profundas.
+        <br />
+        <br /> Adicionalmente, nuestro cuerpo se paraliza, lo que se especula es
+        para que no actuemos nuestros sueños; la mayor parte de los sueños
+        tienen lugar en esta etapa.
+        <br />
+        <br /> Después de pasar por un ciclo "REM", entramos a las etapas
+        descritas anteriormente, para luego volver a un ciclo "REM", despertar
+        brevemente, y repetir todo nuevamente. Cada vez que pasamos por el ciclo
+        REM este es más extenso; en las últimas horas de sueño durante la
+        mañana, los períodos REM pueden ser de hasta 1 hora, mientras que al
+        comienzo de la noche son solo de unos pocos minutos. Además repetimos el
+        ciclo completo unas 4 o 5 veces durante la noche.
+        <br />
+        <br /> Esta última información es clave para comprender las técnicas de
+        sueños lúcidos, que le dan énfasis a esas últimas horas de sueño
+        justamente por la alta densidad "REM" que se da después de haber dormido
+        por varias horas (sueños intensos y vívidos = muy buena oportunidad para
+        "despertar").
+      </p>{" "}
     </Layout>
   );
 };

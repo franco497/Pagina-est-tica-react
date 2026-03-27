@@ -5,28 +5,65 @@ const HistoriaDeLosSueñosLucidoss = () => {
     <Layout>
       <h1>Historia de los sueños lúcidos</h1>
       <p>
-        El concepto de sueños lúcidos no es nuevo. A lo largo de la historia,
-        diversas culturas han reconocido y trabajado con este fenómeno.
-      </p>
-      <h2>Antigüedad</h2>
-      <p>
-        En la antigua Grecia, Aristóteles escribió sobre la capacidad de
-        reconocer que se está soñando. En el Tíbet, los monjes budistas
-        desarrollaron el yoga de los sueños (Milam) como práctica espiritual
-        hace más de mil años.
-      </p>
-      <h2>Edad Moderna</h2>
-      <p>
-        El término "sueño lúcido" fue acuñado por el psiquiatra y escritor
-        holandés Frederik van Eeden en 1913. En su artículo "A Study of Dreams",
-        describió sus propias experiencias con sueños donde era consciente de
-        estar soñando.
-      </p>
-      <h2>Era contemporánea</h2>
-      <p>
-        La investigación científica comenzó en serio con el trabajo de Stephen
-        LaBerge en Stanford, quien demostró que los sueños lúcidos son un estado
-        verificable mediante comunicación ojo-señal.
+        Como veremos, los sueños lúcidos han sido conocidos y utilizados por
+        contemplativos a lo largo de la historia. Debido a su naturaleza más
+        bien esotérica, solamente durante las últimas décadas el público general
+        ha tenido contacto con su práctica, antes relegada a monjes y
+        contemplativos que los usaban principalmente con fines místicos y
+        religiosos.
+        <br />
+        <br /> El recuenta más antiguo de un sueño lúcido, corresponde al
+        relatado por San Agustín de Hipona, en una carta escrita para el 415
+        D..C., en donde cuenta como un ángel lo "despertó" en un sueño para
+        mostrarle que la percepción no dependía del cuerpo sino que del espíritu
+        o la conciencia, demostrándole que podía experimentar la realidad que le
+        mostraban mientras su cuerpo yacía dormido con los ojos cerrados en su
+        cama.
+        <br />
+        <br /> Ya para el siglo octavo, los monjes tibetanos practicaban una
+        forma de yoga basada en la mantención de la conciencia durante las
+        diversas fases del sueño; a esta práctica la llamaban el yoga del sueño.
+        Uno de sus fines era el reconocimiento de la naturaleza ilusoria de
+        todos los fenómenos, para que las experiencias que se tienen al momento
+        de morir no abrumen al practicante. La finalidad última de la práctica
+        era el reconocimiento de "la luz clara" durante el sueño profundo,
+        equivalente al estado de iluminación que luego se podía alcanzar en
+        todos los estados, la vigilia, el sueño y el sueño profundo sin
+        contenidos. <br />
+        <br />
+        La primera persona en occidente que especuló sobre la posibilidad de que
+        los sueños lúcidos fueran una habilidad capaz de ser aprendida por
+        cualquier persona fue el Marqués d'Hervey de Saint-Denys. En 1867
+        publicó su libro "Los sueños y como dirigirlos; observaciones
+        prácticas", en donde documentó sus propios descubrimientos y
+        experiencias.
+        <br />
+        <br /> El termino en si mismo "sueño lúcido", fue introducido por el
+        autor Danés Frederik van Eeden en su libro publicado en 1913, "Un
+        estudio de los sueños".
+        <br />
+        <br /> Durante los años 50, se reportó que la tribu cazadora de los
+        Senoi en Malasia, usaban los sueños lúcidos como una forma de
+        integración y crecimiento psicológico y espiritual. Creían que el mundo
+        espiritual estaba íntimamente unido al mundo de los sueños, y se les
+        enseñaba a los más jóvenes a conquistar el peligro y a los enemigos.
+        Lamentablemente se ha perdido casi todo lo relativo a estas antiguas
+        prácticas tradicionales de la tribu.
+        <br />
+        <br /> En otros lugares, los chamanes utilizaban ampliamente los sueños
+        lúcidos para establecer contacto con los espíritus guías, trayendo de
+        vuelta de sus "viajes" por el mundo onírico respuestas y ayuda para la
+        comunidad.
+        <br />
+        <br /> En Australia, los aborígenes viajaban al mundo de los sueños, en
+        donde creían se encontraban con los espíritus de los ancestros,
+        creadores del mundo. Sus representaciones del espacio de los sueños
+        incluyen puntos y rayas de colores con intrincados patrones, como los
+        que se pueden observar al quedarnos dormidos de manera conscientes; es
+        interesante observar que estos patrones además se pueden ver en
+        meditación profunda, desde la vigilia, lo que sugiere una similitud en
+        las características de la meditación y el sueño lúcido, considerando que
+        muchas otras experiencias son compartidas.
       </p>
     </Layout>
   );

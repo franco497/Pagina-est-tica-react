@@ -3,38 +3,68 @@ import Layout from "../../components/Layout";
 const VolarEnLosSueños = () => {
   return (
     <Layout>
-      <h1>Volar en los sueños</h1>
+      <h1>Volar en los sueños, la actividad favorita</h1>
       <p>
-        Volar es una de las experiencias más buscadas en los sueños lúcidos. Es
-        una actividad que simboliza libertad, trascendencia y expansión de la
-        conciencia.
-      </p>
-      <h2>Técnicas para volar</h2>
-      <ul>
-        <li>
-          <strong>Intención:</strong> Simplemente desear volar con confianza
-        </li>
-        <li>
-          <strong>Superman:</strong> Extiende los brazos y lánzate hacia
-          adelante
-        </li>
-        <li>
-          <strong>Saltos progresivos:</strong> Comienza con saltos más altos
-          hasta convertirte en vuelo
-        </li>
-        <li>
-          <strong>Control mental:</strong> Imagina que tu cuerpo es ingrávido
-        </li>
-        <li>
-          <strong>Escenarios:</strong> Usa elementos del sueño (alfombras
-          mágicas, alas)
-        </li>
-      </ul>
-      <h2>Experiencias comunes</h2>
-      <p>
-        Al volar en sueños, puedes experimentar diferentes sensaciones: vuelo
-        como pájaro, vuelo estilo Superman, levitación, o desplazamiento
-        puramente mental. Cada persona desarrolla su propio estilo de vuelo.
+        Voy a comenzar esta sección con la actividad favorita de la mayoría de
+        los soñadores lúcidos: el vuelo. Desde el comienzo de los tiempos, el
+        hombre ha soñado con poder volar, fantasía que seguramente comenzó
+        observando la libertad en el vuelo de los pájaros; por otra parte el
+        vuelo siempre ha sido un símbolo de libertad y expansión.
+        <br />
+        <br />
+        Durante un sueño lúcido, con algo de práctica es posible volar, cosa por
+        supuesto imposible de hacer durante la vigilia sin algún aparato, como
+        un aeroplano, que nos asista; lo impresionante del vuelo durante la
+        lucidez onírica, es que se siente completamente real, tal como si en
+        este preciso momento fueras capaz de levantarte de tu asiento y volar
+        por tu habitación y luego por tu ventana hacia el cielo.
+        <br />
+        <br />
+        Personalmente no tengo palabras para describir lo que se siente volar en
+        los sueños; el viento en tu cara, la velocidad y la libertad para ir
+        donde quieras. Luego al despertar, esa sensación de expansión sigue
+        conmigo y me acompaña durante todo el día.
+        <br />
+        <br />
+        Llendo al grano, el cuerpo onírico o mental también requiere de cierto
+        "entrenamiento", parecido pero no igual al del cuerpo físico. Cuando
+        comiences con los sueños lúcidos es posible que no tengas mucho control,
+        tanto sobre la movilidad de tu cuerpo como sobre el entorno.
+        <br />
+        <br />
+        La primera vez que pude volar en sueños lo hice extendiendo mis brazos
+        hacia el costado, y relajando mi cuerpo onírico con toda la intención de
+        levitar. Tras unos momentos sentí una corriente que me recorría entero y
+        comencé a flotar, solo a unos cuantos centímetros del suelo. La
+        excitación fue tan grande que desperté de inmediato, impresionado por la
+        experiencia.
+        <br />
+        <br />
+        Otras personas cuentas que no han podido volar de inmediato solo con su
+        cuerpo, y lo han podido hacer subiéndose a algún aparato u objeto;
+        recuerda que en tus sueños existen las alfombras mágicas y las escobas
+        voladoras. Piensa que eres "Superman", extiende tu brazo derecho y da un
+        salto para salir volando. Prueba para ver que te sirve. Cuando te
+        sientas listo y con confianza, intenta levantar el vuelo tan solo con tu
+        fuerza de voluntad. Nunca te olvides de realizar suficientes "chequeos"
+        o verificaciones de la realidad antes de emprender tu vuelo; es bastante
+        sano y te puede salvar los dientes si es que te dispones a lanzarte por
+        el balcón... Se que suena divertido e imposible, pero el nivel de
+        "realismo" que se puede experimentar durante la lucidez onírica es
+        impresionante - muchas veces dudas de hacer cosas que desafían las
+        reglas de la vigilia sencillamente porque no puedes creer que estés
+        soñando, dado el completo "realismo" del mundo onírico que te rodea, a
+        pesar de que todo indique de que estás soñando... asegúrate muy bien.
+        <br />
+        <br />
+        Las primeras veces te vas a sentir auténticamente como Neo en "The
+        Matrix", cuando Morpheus le enseñaba a liberar su mente. En sueños es lo
+        mismo, debes aprender a dejar de lado las "reglas" de la vigilia como la
+        gravedad y el peso por ejemplo; al comienzo, tu mente se aferrará a
+        estos modos de comportamiento, pero con la práctica descubrirás una
+        increíble flexibilidad en tu cuerpo y mente oníricos, lo que además te
+        dará creatividad y llevarás algo de esa flexibilidad mental a tu mundo
+        de vigilia.
       </p>
     </Layout>
   );

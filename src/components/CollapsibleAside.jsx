@@ -1,10 +1,16 @@
 import { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import { navigationData, getCurrentSection } from "../data/navigationData";
 
 const CollapsibleAside = () => {
   const [isCollapsed, setIsCollapsed] = useState(() => {
     const saved = localStorage.getItem("asideCollapsed");
     return saved === "true";
   });
+
+  const location = useLocation();
+  const currentSection = getCurrentSection(location.pathname);
+  const sectionData = navigationData[currentSection];
 
   useEffect(() => {
     localStorage.setItem("asideCollapsed", isCollapsed);
@@ -34,21 +40,19 @@ const CollapsibleAside = () => {
         </svg>
       </button>
       <div className="aside-content">
-        <h2>Información</h2>
+        <h2>{sectionData.title}</h2>
         <nav>
           <ul>
-            <li>
-              <a href="/introduccion">Introducción</a>
-            </li>
-            <li>
-              <a href="/primeros-pasos">Primeros pasos</a>
-            </li>
-            <li>
-              <a href="/tecnicas">Técnicas</a>
-            </li>
-            <li>
-              <a href="/actividades">Actividades</a>
-            </li>
+            {sectionData.links.map((link) => (
+              <li key={link.path}>
+                <NavLink
+                  to={link.path}
+                  className={({ isActive }) => (isActive ? "active-link" : "")}
+                >
+                  {link.name}
+                </NavLink>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>

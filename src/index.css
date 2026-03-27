@@ -100,6 +100,23 @@ a:hover {
   opacity: 0.7;
 }
 
+/* Estilo para el enlace activo en el header */
+.main-navbar .active-main-link {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Mantener el hover original */
+.main-navbar a:hover {
+  opacity: 0.7;
+}
+
+/* Asegurar que el estilo activo prevalece */
+.main-navbar .active-main-link:hover {
+  opacity: 1;
+}
+
 /* -----------------------------HEADER QUERIES----------------------------- */
 
 @media screen and (max-width: 540px) {
@@ -274,6 +291,25 @@ h1 {
   border-bottom: 3px solid rgb(1, 46, 114);
   padding-bottom: 10px;
   margin-bottom: 20px;
+}
+
+/* Estilo para el enlace activo en el menú secundario */
+.secondary-navbar .active-link {
+  background-color: rgb(1, 46, 114);
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.secondary-navbar a.active-link {
+  background-color: rgb(1, 46, 114);
+  color: white;
+}
+
+/* Opcional: efecto hover mejorado */
+.secondary-navbar a:hover {
+  background-color: rgba(1, 46, 114, 0.1);
+  border-radius: 4px;
 }
 
 /* -----------------------------ASIDE MAIN ASIDE QUERIES----------------------------- */

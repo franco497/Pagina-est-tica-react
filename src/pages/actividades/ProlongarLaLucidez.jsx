@@ -5,37 +5,62 @@ const ProlongarLaLucidez = () => {
     <Layout>
       <h1>Prolongar la lucidez</h1>
       <p>
-        Una vez que alcanzas la lucidez, mantenerla puede ser un desafío. Aquí
-        hay técnicas para estabilizar y prolongar tus sueños lúcidos.
-      </p>
-      <h2>Técnicas de estabilización</h2>
-      <ul>
-        <li>
-          <strong>Frotar las manos:</strong> Activa el sentido del tacto y ancla
-          tu conciencia
-        </li>
-        <li>
-          <strong>Girar en el lugar:</strong> Un giro lento puede estabilizar el
-          entorno
-        </li>
-        <li>
-          <strong>Tocar objetos:</strong> Interactúa con elementos del sueño
-          para solidificarlo
-        </li>
-        <li>
-          <strong>Verbalizar intenciones:</strong> Di en voz alta "más claridad"
-          o "más estabilidad"
-        </li>
-        <li>
-          <strong>Mantener calma:</strong> La emoción intensa puede despertarte;
-          respira profundo en el sueño
-        </li>
-      </ul>
-      <h2>Prevenir el despertar</h2>
-      <p>
-        Si sientes que el sueño se desvanece, realiza inmediatamente una técnica
-        de estabilización. También puedes "sumergirte" en el entorno (tocar el
-        suelo, oler flores) para reforzar la sensación de presencia.
+        Sobretodo al comienzo, una de las cosas que tienen en común las
+        experiencias de lucidez onírica son su corta duración. Las primeras
+        experiencias están marcadas por la excitación producto de la notable
+        vivencia, lo que lleva a despertar rápidamente.
+        <br />
+        <br /> Esto puede evitarse, e incluso se puede emplear la lucidez para
+        prolongar más o menos a voluntad los sueños, de tal manera de aprovechar
+        al máximo este increíble estado de conciencia; el truco está en mantener
+        la interacción con el mundo de los sueños:
+        <br />
+        <h3>Interactuar con el medio</h3> Y lo vuelvo a repetir: el secreto está
+        en la interacción. Esto es incluso válido para el mundo de vigilia; si
+        retiramos la atención del mundo externo, y cerramos nuestros ojos, al
+        rato nos quedamos dormidos. Por lo mismo, una buena y efectiva manera de
+        prologar un sueño lúcido consiste en mantener un activo contacto con
+        nuestro cuerpo onírico (sentirlo al moverse, ser conscientes del "peso"
+        de nuestro cuerpo mental al caminar,...) y el entorno (mirar activamente
+        el detalle de las cosas que nos rodean, tocar objetos, etc...). Una de
+        las cosas que he notado en mi experiencia personal, es que si me
+        encuentro volando y siento que voy a despertar, es útil "aterrizar" para
+        sentir el contacto del cuerpo con el "piso" - todas estas sensaciones de
+        interacción ayudan.<h3>Girar y girar</h3> Una de las técnicas consiste
+        en comenzar a girar cuando uno se da cuenta de que el sueño está por
+        acabar; esa sensación de ligero "mareo" y liviandad ayuda a mantenernos
+        dormidos. ¿Y cómo sabe uno esto? Bueno, la escena comienza a perder
+        nitidez y a desvanecerse; la sensación del cuerpo onírico comienza
+        también a perderse. Al notar esto, si uno enfoca la atención sobre el
+        propio cuerpo, y comienza relajadamente a girar, es posible por un lado
+        prologar el sueño lúcido, y por otro, es común que este acto de girar
+        como un derviche nos traslade a otro escenario, otro lugar con sus
+        propias características y personajes. Pruébalo.{" "}
+        <h3>Frotarse las manos</h3> Esto da una muy clara "percepción" onírica
+        que despierta nuestros sentidos de ensueño. Puede ser muy útil.{" "}
+        <h3>Mirarse las manos</h3> En este caso la relación está con lo de la
+        interacción con el entorno, en este caso nuestro cuerpo, pero la ventaja
+        de las manos es que su percepción se mantiene clara incluso después de
+        que el resto del mundo onírico comienza a desvanecerse. Es un punto de
+        referencia relativamente "fijo". <h3>La conciencia "testigo"</h3>{" "}
+        Mantener la calma es uno de los tips más importantes para mantener la
+        lucidez. Lo ideal es tener una actitud contemplativa o meditativa, de
+        percepción completamente desapegada, y al mismo tiempo intensamente
+        atenta, como si fueras un testigo de todo lo que ocurre, incluso dentro
+        de nosotros. Este "desapego" de la atención incluso permite mantener la
+        lucidez en aquellos sueños donde esta se tiende a perder debido a una
+        re-absorción en el contenido onírico, lo cual es bastante común - te das
+        cuenta de que estás soñando, pero al rato te olvidas, y el sueño te
+        envuelve en sus redes. <h3>Salir y entrar</h3> Me he dado cuenta que es
+        posible ingresar rápida y fácilmente a otro sueño si se pone la atención
+        y la intención en esto justo al despertar de un sueño lúcido; es decir,
+        se toma la conciencia del entorno "físico" que nos rodea, sentimos
+        nuestro cuerpo en la cama, pero con práctica podemos de inmediato
+        "saltar" rápidamente dentro de otro sueño, aprovechando una cierta
+        "inercia" que tiene el cerebro (no sabría como llamar de otra manera al
+        fenómeno) cuando se despierta de un sueño lúcido de alta intensidad. En
+        mi caso he podido entrar una y otra vez a un sueño lúcido, repitiendo
+        este procedimiento por horas a voluntad.
       </p>
     </Layout>
   );

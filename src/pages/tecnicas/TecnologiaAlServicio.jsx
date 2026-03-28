@@ -3,36 +3,38 @@ import Layout from "../../components/Layout";
 const TecnologiaAlServicio = () => {
   return (
     <Layout>
-      <h1>Tecnología al servicio de los sueños</h1>
+      <h1>Novadreamer, la tecnología al servicio de los sueños</h1>
       <p>
-        La tecnología moderna ofrece herramientas que pueden facilitar el
-        desarrollo de sueños lúcidos.
-      </p>
-      <h2>Dispositivos y aplicaciones</h2>
-      <ul>
-        <li>
-          <strong>Máscaras REM:</strong> Detectan movimientos oculares y emiten
-          estímulos lumínicos durante el sueño REM
-        </li>
-        <li>
-          <strong>Aplicaciones de diario de sueños:</strong> Facilitan el
-          registro y análisis de patrones oníricos
-        </li>
-        <li>
-          <strong>Rastreadores de sueño:</strong> Ayudan a identificar ciclos de
-          sueño óptimos para inducir lucidez
-        </li>
-        <li>
-          <strong>Estimulación transcraneal:</strong> Dispositivos
-          experimentales que pueden aumentar la lucidez
-        </li>
-      </ul>
-      <h2>Consideraciones</h2>
-      <p>
-        Aunque la tecnología puede ser útil, las técnicas tradicionales como el
-        diario de sueños y los chequeos de realidad siguen siendo fundamentales.
-        La tecnología debe verse como un complemento, no como un sustituto de la
-        práctica consciente.
+        Por increíble que parezca, se ha desarrollado tecnología bastante
+        confiable como ayuda para poder tener sueños lúcidos. Uno de estos
+        productos es el famoso (entro los oneironautas) Novadreamer, que
+        consiste básicamente en un "antifaz" que se usa para dormir, parecido al
+        que nos dan en los aviones, pero con algunos componentes electrónicos
+        agregados, lo que lo hace un poco más grande y pesado que un sencillo
+        antifaz.
+        <br />
+        <br /> La tecnología tras este artefacto, y sus imitaciones, consiste en
+        un circuito detector del movimiento rápido de ojos (REM). Cuando este
+        movimiento sobrepasa cierto umbral o duración, el Novadreamer comienza a
+        emitir señales luminosas sobre los ojos, lo que se traduce en destellos
+        brillantes que se filtran a nuestros sueños como objetos extremadamente
+        luminosos o una súbita iluminación del paisaje donde nos encontremos.
+        <br />
+        <br /> La ventaja es que nos garantiza siempre una "señal" dentro de
+        nuestros sueños para darnos cuenta de que estamos soñando, pero de todas
+        maneras debemos entrenarnos para reconocer que estas señales luminosas
+        son una indicación de que estamos dormidos; recomiendo utilizar este
+        mismo esfuerzo para reconocer las señales que naturalmente surgen en
+        nuestros sueños, tal como vimos en artículos anteriores.
+        <br />
+        <br /> Para algunas personas, por lo que he podido leer, el Novadreamer
+        resulta ser tremendamente efectivo, y para otras, sencillamente no
+        sirve. Personalmente les recomendaría intentar por un buen tiempo sin
+        ayudas externas, y si nada funciona, bueno, este artefacto puede ser de
+        utilidad. Personalmente me encargué uno hace ya varios años atrás, que
+        yace guardado en mi velador sin haberlo usado más que un par de veces,
+        debido a que comencé a tener sueños lúcidos usando las técnicas
+        tradicionales justo cuando arribó este aparato a mi hogar...
       </p>
     </Layout>
   );

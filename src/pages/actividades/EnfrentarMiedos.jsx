@@ -3,24 +3,78 @@ import Layout from "../../components/Layout";
 const EnfrentarMiedos = () => {
   return (
     <Layout>
-      <h1>Enfrentar miedos en sueños lúcidos</h1>
+      <h1>Enfrentar los miedos, conquistar las pesadillas</h1>
       <p>
-        Los sueños lúcidos ofrecen un entorno seguro para confrontar y superar
-        miedos que nos afectan en la vida despierta.
+        Si tienes pesadillas recurrentes, o deseas comprender e integrar los
+        contenidos de aquellos sueños donde prevalece el miedo, puedes emplear
+        la lucidez onírica para enfrentar directamente esta clase de sueños,
+        integrarlos, comprenderlos y transformarlos.
       </p>
-      <h2>Trabajar con pesadillas</h2>
-      <p>Cuando te enfrentas a una pesadilla con lucidez, puedes:</p>
-      <ul>
-        <li>Transformar al agresor en algo inofensivo</li>
-        <li>Pedirle qué necesita o por qué está ahí</li>
-        <li>Usar poderes oníricos para cambiar la situación</li>
-        <li>Despertarte conscientemente si lo necesitas</li>
-      </ul>
-      <h2>Beneficios terapéuticos</h2>
+
+      <h3>Pesadillas recurrentes</h3>
       <p>
-        Investigaciones han demostrado que trabajar con pesadillas recurrentes
-        en sueños lúcidos puede reducir significativamente la ansiedad y mejorar
-        la calidad del sueño en personas con trastornos de estrés postraumático.
+        Irónicamente, este caso es especialmente auspicioso para desarrollar la
+        lucidez. Anteriormente, conversamos que una de las claves para despertar
+        en un sueño consistía en reconocer los signos que nos dicen que estamos
+        soñando; los signos muchas veces no son tan fáciles de reconocer, por su
+        variedad e infinita creatividad al presentarse. Si tienes una pesadilla
+        que se repite, tienes tu signo personal en frente tuyo para poder
+        reconocerlo y convertir esos momentos de terror en un sueño lúcido.
+      </p>
+
+      <h3>Cómo enfrentar las pesadillas</h3>
+      <p>
+        Lo principal, una vez que adquieres la lucidez en medio de uno de estos
+        sueños, es enfrentar al enemigo en la forma que se presente, ya sea un
+        monstruo, una persona temida, una situación o "fuerza" que se nos
+        muestra amenazante. En términos prácticos, esto significa en vez de
+        huir, quedarnos donde estamos, y mirar de frente aquello que nos
+        amenaza.
+      </p>
+
+      <p>
+        El siguiente paso, consiste en integrar ese contenido; lo primero es
+        darnos cuenta de que es una manifestación o "materialización" de
+        nuestros propios miedos y trabas. Puedes pensar esto o decirlo en voz
+        alta mientras miras al enemigo onírico. La mayoría de las veces basta
+        esta actitud, para que nuestros monstruos se "transformen"
+        milagrosamente en formas amables e inofensivas.
+      </p>
+
+      <p>
+        Si la amenaza sigue ahí, tienes varias opciones: puedes intentar
+        conversar con aquello que te atemoriza, preguntándole qué hace ahí, y
+        qué es lo que desea. La respuesta que te va a dar tu monstruo personal
+        por lo general te va sorprender, y te va a enseñar cosas sobre tu
+        persona que no conocías o ignorabas. También puedes sencillamente
+        abrazar a tu enemigo con el conocimiento de que es una parte tuya que te
+        niegas a integrar. Cualquier acto que surja espontáneamente orientado a
+        terminar con la agresión del "malo" está bien, y cumple el objetivo de
+        terminar con ese miedo y superarlo. Los efectos de esta transformación
+        te seguirán hasta la vigilia, al despertar.
+      </p>
+
+      <p>
+        Si al comienzo definitivamente no te sientes listo para integrar
+        directamente aquello que te atemoriza, y prefieres una manera
+        alternativa de enfrentar tus pesadillas, puedes tomar el papel del
+        "héroe", y enfrentar en una batalla al agresor para vencerlo; puedes
+        usar tus "poderes" desarrollados en los sueños como ayuda. Una vez
+        vencido el enemigo, puedes pedirle que te entregue algo a cambio, un
+        regalo, o hacerlo tu aliado para otras sueños; es posible convertirlo en
+        un consejero espiritual para otros sueños, como lo hacían los aborígenes
+        australianos y los chamanes alrededor del mundo.
+      </p>
+
+      <p>
+        Otra opción, más apropiada para cuando tengas más experiencia y
+        confianza, es entregarte y dejar que el enemigo sencillamente te ataque
+        y termine contigo. Esto lo usaban los monjes tibetanos y chamanes (los
+        últimos decían descender al "mundo de los espíritus" en sueños, y
+        voluntariamente buscaban demonios para dejarse "destrozar" por
+        aquellos). La experiencia es liberadora y puede llevar a una intensa
+        experiencia transpersonal de "no-yo", de vació o conciencia sin forma;
+        este tipo de experiencias las analizaremos en detalle en otro artículo.
       </p>
     </Layout>
   );

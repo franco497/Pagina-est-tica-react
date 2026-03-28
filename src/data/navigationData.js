@@ -31,11 +31,14 @@ export const navigationData = {
     title: "Primeros pasos",
     basePath: "/primeros-pasos",
     links: [
-      { path: "/primeros-pasos", name: "Primeros pasos" },
-      { path: "/primeros-pasos/diario-de-sueños", name: "Diario de sueños" },
+      { path: "/primeros-pasos", name: "Como recordar los sueños" },
+      {
+        path: "/primeros-pasos/diario-de-sueños",
+        name: "Escribe un diario de sueños",
+      },
       {
         path: "/primeros-pasos/reconoce-los-signos",
-        name: "Reconoce los signos",
+        name: "Reconoce los signos ¡estas soñando!",
       },
     ],
   },
@@ -45,22 +48,22 @@ export const navigationData = {
     title: "Técnicas",
     basePath: "/tecnicas",
     links: [
-      { path: "/tecnicas", name: "Consejos y tips" },
-      { path: "/tecnicas/chequeo-realidad", name: "Chequeo de realidad" },
-      {
-        path: "/tecnicas/mas-alla-de-las-tecnicas",
-        name: "Más allá de las técnicas",
-      },
-      {
-        path: "/tecnicas/quedarnos-dormidos-concientemente",
-        name: "Quedarnos dormidos conscientemente",
-      },
+      { path: "/tecnicas", name: "Consejos y tips antes de comenzar" },
       { path: "/tecnicas/tecnica-MILD", name: "Técnica MILD" },
       {
-        path: "/tecnicas/tecnologia-al-servicio",
-        name: "Tecnología al servicio",
+        path: "/tecnicas/quedarnos-dormidos-concientemente",
+        name: "WILD, o quedarnos dormidos concientemente",
       },
-      { path: "/tecnicas/WBTB", name: "WBTB" },
+      { path: "/tecnicas/chequeo-realidad", name: "Chequeo de la realidad" },
+      { path: "/tecnicas/WBTB", name: "WBTB, o de vuelta a la cama..." },
+      {
+        path: "/tecnicas/tecnologia-al-servicio",
+        name: "Novadreamer, la tecnologia al servicio de los sueños",
+      },
+      {
+        path: "/tecnicas/mas-alla-de-las-tecnicas",
+        name: "Mas alla de las tecnicas...",
+      },
     ],
   },
 
@@ -69,16 +72,21 @@ export const navigationData = {
     title: "Actividades",
     basePath: "/actividades",
     links: [
-      { path: "/actividades", name: "Volar en los sueños" },
-      { path: "/actividades/volar-en-los-sueños", name: "Volar en los sueños" },
-      { path: "/actividades/enfrentar-miedos", name: "Enfrentar miedos" },
       {
-        path: "/actividades/explorar-y-divertirnos",
-        name: "Explorar y divertirnos",
+        path: "/actividades",
+        name: "Volar en los sueños la actividad favorita",
       },
       {
         path: "/actividades/prolongar-la-lucidez",
         name: "Prolongar la lucidez",
+      },
+      {
+        path: "/actividades/enfrentar-miedos",
+        name: "Enfrentar miedos, conquistar pesadillas",
+      },
+      {
+        path: "/actividades/explorar-y-divertirnos",
+        name: "Explorar y divertirnos",
       },
     ],
   },

@@ -3,29 +3,50 @@ import Layout from "../../components/Layout";
 const TecnicaMILD = () => {
   return (
     <Layout>
-      <h1>Técnica MILD (Mnemonic Induction of Lucid Dreams)</h1>
+      <h1>Técnica MILD</h1>
       <p>
-        Desarrollada por Stephen LaBerge, la técnica MILD utiliza la memoria
-        prospectiva para inducir sueños lúcidos.
-      </p>
-      <h2>Pasos de la técnica</h2>
-      <ol>
-        <li>
-          Al acostarte, repite mentalmente: "La próxima vez que sueñe, recordaré
-          que estoy soñando"
-        </li>
-        <li>Visualiza un sueño reciente y reconócete en él como soñador</li>
-        <li>
-          Imagina cómo te darías cuenta de que estás soñando en esa situación
-        </li>
-        <li>Mantén la intención firme mientras te quedas dormido</li>
-      </ol>
-      <h2>Variante WBTB + MILD</h2>
-      <p>
-        La combinación más efectiva es despertar después de 4-6 horas de sueño,
-        permanecer despierto 20-60 minutos (leyendo sobre sueños lúcidos), y
-        luego aplicar la técnica MILD al volver a dormir.
-      </p>
+        La técnica MILD (Mnemonic Induced Lucid Dream, o en español, Inducción
+        Mnemónica de Sueños Lúcidos), fue desarrollada, o más bien dada a
+        conocer al público general por Stephen Laberge, de la universidad de
+        Stanford.
+        <br />
+        <br /> Es sencilla de aplicar, y se usa cuando despiertas de un sueño y
+        te vuelves a dormir. Mientras esto ocurre debes:
+        <br /> <h3>Recordar el sueño reciente</h3> Antes de quedarte nuevamente
+        dormido, recuerda lo mejor que puedas el reciente sueño.
+        <br /> <h3>Desarrolla la intención</h3> Mientras te quedas dormido,
+        repite la frase para ti mismo : "Me voy a quedar dormido y voy a soñar.
+        Voy a recordar esto y me voy a dar cuenta cuando esté soñando", o algo
+        por el estilo con el mismo significado. No basta con repetirlo
+        mecánicamente, debes verdaderamente "quererlo"; tienes que poner mucha
+        intención en lo que dices.
+        <br /> <h3>Visualiza</h3> Una vez que sientas que intención está bien
+        "fijada", visualiza el sueño del cual acabas de despertar, e imagina que
+        dentro del mismo te das cuenta de que estás soñando. También ayuda
+        imaginar que cuando te das cuenta, realizas alguna actividad "onírica"
+        de tu especial gusto, como por ejemplo volar.
+        <br /> <h3>Repite los pasos anteriores</h3> Mientras te quedas dormido,
+        tu mente comenzará a irse para todos lados; debes "traerla" de vuelta a
+        tu objeto de atención, fijar la atención y visualizar, fijar la atención
+        y ........ hasta quedarte dormido. Por este motivo es que se hace un
+        paralelo entre la meditación y la lucidez onírica - todas las formas de
+        contemplación practican el "traer de vuelta" la mente al momento
+        presente.
+        <br />
+        <br /> Si tienes éxito, te encontrarás soñando y te darás cuenta de
+        aquello. Personalmente, me he dado cuenta de que con práctica la técnica
+        MILD incluso funciona al quedarte dormido por primera vez al irte a
+        dormir por la noche, tomando para visualización algún sueño de la noche
+        anterior o una visualización creada en el momento, pero es muchísimo más
+        fácil practicar la técnica durante las últimas horas de sueño por la
+        mañana, debido a la mayor densidad REM después de haber dormido varias
+        horas.
+        <br />
+        <br /> Esto aplica a todas las técnicas; es muchísimo más fácil tener
+        sueños lúcidos durante las últimas horas de sueño, por lo que te
+        recomiendo dormir normalmente durante la primera parte de la noche, para
+        comenzar tu práctica temprano justo antes de que amanezca.
+      </p>{" "}
     </Layout>
   );
 };

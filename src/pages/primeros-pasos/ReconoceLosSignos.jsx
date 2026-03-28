@@ -3,38 +3,97 @@ import Layout from "../../components/Layout";
 const ReconoceLosSignos = () => {
   return (
     <Layout>
-      <h1>Reconoce los signos oníricos</h1>
+      <h1>Reconoce los signos, ¡estás soñando!</h1>
       <p>
-        Los signos oníricos son elementos, situaciones o personajes que aparecen
-        frecuentemente en tus sueños. Identificarlos es clave para desencadenar
-        la lucidez.
-      </p>
-      <h2>Tipos de signos oníricos</h2>
-      <ul>
-        <li>
-          <strong>Personas:</strong> Familiares, amigos, personajes recurrentes
-        </li>
-        <li>
-          <strong>Lugares:</strong> Casas, escuelas, ciudades imaginarias
-        </li>
-        <li>
-          <strong>Objetos:</strong> Objetos específicos que aparecen con
-          frecuencia
-        </li>
-        <li>
-          <strong>Situaciones:</strong> Caer, volar, llegar tarde, perder
-          dientes
-        </li>
-        <li>
-          <strong>Emociones:</strong> Miedo, euforia, confusión recurrente
-        </li>
-      </ul>
-      <h2>Ejercicio práctico</h2>
-      <p>
-        Revisa tu diario de sueños y subraya los elementos que se repiten. Crea
-        una lista de tus "signos oníricos personales". Cuando encuentres estos
-        elementos en un sueño, te servirán como desencadenantes para
-        preguntarte: "¿Estoy soñando?"
+        Ahora que ya sabemos como recordar nuestros sueños, y además llevamos un
+        diario o registro de los sueños que vamos teniendo, podemos seguir con
+        el primer gran paso hacia la lucidez onírica, el reconocer los signos
+        que más adelante nos van a decir de que estamos soñando, liberándonos de
+        la ilusión, o más bien dicho liberándonos a la ilusión.
+        <br />
+        <br /> Revisa tu diario frecuentemente, y comenzarás a detectar temas y
+        experiencias recurrentes en los sueños. A medida que los encuentres,
+        anótalos en un listado aparte, y comienza a clasificarlos. Cada persona
+        tiene sus propios signos y temas que se repiten, por lo que debes
+        prestar total atención al contenido de tus sueños para reconocer estos
+        patrones.
+        <br />
+        <br /> Te puedo ayudar compartiendo mi propia clasificación que he
+        catalogado con el tiempo de práctica; la mayoría de estos temas por lo
+        que he investigado son bastante recurrentes en muchas personas. De todas
+        maneras debes buscar los tuyos propios:
+        <br />
+        <h3>Lugares del pasado</h3>
+        Es común que los sueños tengan lugar en escenarios prestados de tu
+        pasado, por ejemplo la casa de tu infancia o el lugar al que visitabas
+        en los veranos durante tu juventud. También es posible que la trama se
+        desarrolle en tu antiguo colegio o universidad. Al subconsciente le
+        encantan estos lugares, sobretodo si tienes buenos recuerdos de ellos.
+        <br />
+        <h3>Personas del pasado</h3> El encuentro poco probable con personas que
+        no has visto hace demasiado tiempo es otros elemento típico. También
+        puede ser con algún ser querido que haya fallecido ya en el pasado -
+        este último caso te permitirá, cuando seas capaz de alcanzar la lucidez,
+        de entablar conversaciones y disfrutar junto a ellos de un buen rato en
+        el mundo de los sueños...
+        <h3>Situaciones del pasado</h3>
+        Es común encontrarse en situaciones típicas de otros momentos en tu
+        vida, que a veces pueden ser incluso apremiantes; por ejemplo si
+        estuviste en la universidad cursando una exigente carrera por muchos
+        años, es muy probable que de tanto en tanto te encuentres dando algún
+        examen; esto también le ocurre a los escolares. En este caso imagínate,
+        la lucidez te libra de tener que dar un examen demás en tu vida, que
+        podría ser mejor...
+        <h3>Vibraciones en el cuerpo o en el entorno</h3> Este es un signo útil
+        para esos momentos en que nos estamos quedando dormidos o justo al
+        despertar. Incluso puede que te encuentres completamente paralizado, ya
+        sea en algún escenario en tus sueños, o tendido en tu cama, sin poder ni
+        hablar. Paradójicamente, si reconoces este signo, es el mejor momento
+        para comenzar un sueño lúcido o una experiencia fuera del cuerpo (OBE,
+        "Out of Body Experience", lo que por supuesto es una tema que debe ser
+        estudiado por la ciencia para ser validado apropiadamente; esto lo
+        discutiremos más adelante), dado que en estos momentos nuestro cuerpo
+        permanece dormido pero nuestra mente está "despierta" - todas las noches
+        durante nuestros sueños nuestro cuerpo naturalmente se paraliza, para
+        que no actuemos nuestros sueños; a veces nuestra mente o conciencia
+        "despierta" un poco antes, y puede ser aterrador el no poder moverse ni
+        hablar - por el otro lado, para un soñador lúcido es una espectacular
+        oportunidad para comenzar un gran viaje.
+        <br />
+        <br /> En ocasiones se pueden percibir vibraciones en el entorno, como
+        si lo que nos rodeara estuviera "vivo". Esto también puede ocurrir en
+        sueños, e incluso una sensación de profunda comunión con lo que nos
+        rodea; este puede ser otro signo onírico.
+        <h3>Cambios bruscos de escena</h3> Es típico de la realidad onírica, que
+        sigue sus propias reglas; estamos en un lugar, haciendo lo que sea, y de
+        pronto nos encontramos en un lugar completamente diferente, haciendo
+        otra cosa, y "algo" no calza, pero no sabemos exactamente que es. No
+        tenemos un claro recuerdo de como llegamos al lugar donde estamos.
+        Excelente signo para despertar.
+        <br />
+        <h3> Objetos o situaciones bizarras</h3> Al mundo onírico le encanta ser
+        "extremadamente" creativo. Es posible que nos encontremos intentando
+        abrir una puerta usando como llave una hermosa pintura que acabamos de
+        terminar, o que un amistoso o también temible dinosaurio nos acompañe al
+        trabajo. En los sueño, todo puede ser. Estas situaciones "imposibles"
+        pare le mundo de la vigilia, son también un muy útil despertador.
+        <br />
+        <br /> Estos temas son los más recurrentes en mis sueños, pero también
+        es común para muchos el encontrarse cayendo sin parar, el funcionamiento
+        bizarro de electrodomésticos (por ejemplo los relojes en los sueños
+        suelen mostrar extraños símbolos en vez de la hora), encontrarse
+        desnudo.... Debes buscar por tus propios "despertadores".
+        <br />
+        <br /> Este paso es más que una simple práctica preliminar. Es bastante
+        común comenzar a tener sueños lúcidos después de haber reconocido
+        algunos temas claves en nuestros sueños. Esta forma de lucidez recurre a
+        la memoria y al reconocimiento de situaciones externas; en etapas más
+        avanzadas, es posible alcanzar o más bien mantener constantemente la
+        lucidez a través de la "eseidad" de la realidad que se experimente - un
+        concepto difícil de explicar, pero es el reconocer un sueño "porqué si"
+        - sencillamente sabes que estás soñando cuando duermes. Esto sobrepasa
+        el alcance del artículo, pero es un interesante tema relacionado con la
+        meditación y la penetración en la esencia de la realidad.
       </p>
     </Layout>
   );

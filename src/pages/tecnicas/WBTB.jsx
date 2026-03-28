@@ -3,28 +3,32 @@ import Layout from "../../components/Layout";
 const WBTB = () => {
   return (
     <Layout>
-      <h1>WBTB (Wake Back To Bed)</h1>
+      <h1>WBTB, o de vuelta a la cama...</h1>
       <p>
-        WBTB es una de las técnicas más efectivas para inducir sueños lúcidos.
-        Consiste en despertar durante la noche y luego volver a dormir.
-      </p>
-      <h2>Cómo realizarla</h2>
-      <ol>
-        <li>Duerme normalmente durante 4-6 horas</li>
-        <li>Despierta con una alarma o naturalmente</li>
-        <li>Permanece despierto de 20 a 60 minutos</li>
-        <li>
-          Durante este tiempo, lee sobre sueños lúcidos, revisa tu diario o
-          practica meditación
-        </li>
-        <li>Vuelve a dormir con la intención de tener un sueño lúcido</li>
-      </ol>
-      <h2>Por qué funciona</h2>
-      <p>
-        Al despertar en medio de la noche, interrumpes el ciclo de sueño para
-        volver a entrar directamente en sueño REM con mayor conciencia. El
-        cerebro está más activo y es más probable que mantengas lucidez al
-        entrar en el sueño.
+        WBTB son siglas que quieren decir "Wake back to bed", o en español
+        "despierta y de vuelta a la cama". Este es un método muy efectivo para
+        comenzar a tener sueños lúcidos.<h3>El método consiste en:</h3>{" "}
+        <h4>1- Programa tu despertador para dormir 6 horas aprox.</h4> ¿Y por
+        qué? Es porque durante esas últimas dos horas de sueño de la mañana
+        (esas dos que faltan para completar el común promedio de 8 horas de
+        sueño) cuando nuestros sueños son más activos; tal como conversamos
+        anteriormente, la mayor cantidad de actividad REM se concentra en las
+        últimas horas de la mañana.
+        <h4>2- Levántate, y lee sobre los sueños lúcidos</h4> Una vez fuera de
+        la cama, lee un libro sobre los sueños lúcidos, o visita páginas como
+        esta y repasa las técnicas y tips para poder tener sueños despiertos. Lo
+        importante no es el tema en cuestión sino que te rodees de pensamientos
+        relativos a la lucidez onírica.<h4>3- De vuelta a la cama a dormir</h4>{" "}
+        Una vez que sientas que estás completamente despierto, y que haz leído
+        bastante sobre el tema, regresa a la cama proponiéndote tener un sueño
+        lúcido. Puedes visualizar algún sueño que hayas tenido durante la noche,
+        e imagina que te das cuenta de que estás soñando; repite esto hasta
+        quedarte dormido - para mi es lo más efectivo que hay, con esta
+        actividad tengo un sueño lúcido prácticamente garantizado.
+        <br />
+        <br /> Emplea esta técnica WBTB siempre que tengas tiempo. No duermas
+        menos por practicarla; como todo arte, la lucidez onírica toma tiempo y
+        paciencia, que son verdaderas pruebas que el practicante debe superar.
       </p>
     </Layout>
   );

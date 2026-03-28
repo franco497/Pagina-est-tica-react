@@ -3,31 +3,38 @@ import Layout from "../../components/Layout";
 const DiarioDeSueños = () => {
   return (
     <Layout>
-      <h1>Diario de sueños</h1>
+      <h1>Escribe un diario de los sueños</h1>
       <p>
-        El diario de sueños es la herramienta más importante para desarrollar la
-        capacidad de recordar sueños y reconocer patrones oníricos.
-      </p>
-      <h2>Cómo empezar</h2>
-      <ul>
-        <li>Mantén una libreta y bolígrafo junto a tu cama</li>
-        <li>Al despertar, sin moverte, intenta recordar los sueños</li>
-        <li>Anota inmediatamente cualquier fragmento que recuerdes</li>
-        <li>Incluye detalles: emociones, colores, personas, lugares</li>
-        <li>Pon fecha a cada entrada</li>
-      </ul>
-      <h2>Consejos útiles</h2>
-      <ul>
-        <li>Escribe en presente, como si estuvieras viviendo el sueño ahora</li>
-        <li>No juzgues la calidad de tu escritura, solo registra</li>
-        <li>
-          Identifica "signos oníricos": elementos recurrentes en tus sueños
-        </li>
-        <li>Relee tu diario periódicamente para reconocer patrones</li>
-      </ul>
-      <p>
-        Con la práctica, pasarás de recordar un sueño por semana a recordar
-        múltiples sueños cada noche.
+        Ahora ya sabemos lo básico y seguramente ya podrás recordar algunos
+        sueños con más facilidad si sigues los consejos del artículo anterior.
+        El siguiente paso es sumamente útil para la mayoría de las personas;
+        llevar un diario con tus sueños estimula al subconsciente haciéndole
+        saber que los sueños son importantes - el mismo hecho de saber que debes
+        llevarlos al papel estimula su memoria.
+        <br />
+        <br /> Entre las opciones que debes barajar para ir registrándolos, está
+        la clásica libreta o diario, y también una grabadora; hay las hay
+        digitales y son muy fáciles de usar. Otra opción es el escribir los
+        sueños directamente en la computadora. Algunas personas los graban
+        primero con su voz, para luego con más tiempo pasarlos a la computadora.
+        No importa el método que uses, lo importante es que seas consistente
+        para que este verdadero entrenamiento de la memoria onírica tenga
+        efectos acumulativos en el tiempo.
+        <br />
+        <br /> Si usas una libreta o grabadora, lo ideal es que las mantengas al
+        costado de tu cama, siempre en el mismo lugar, para tener la comodidad
+        de alcanzarlos al despertar sin mayor esfuerzo ni tiempo perdido; las
+        memorias de nuestros sueños suelen ser bastante "volátiles", se
+        desvanecen con facilidad.
+        <br />
+        <br /> Entonces el procedimiento es así de sencillo: nos despertamos,
+        recordamos nuestro sueño, y luego lo escribimos o grabamos. Si al
+        comienzo solo recordamos vagas sensaciones o sentimientos, eso está
+        bien, entonces escribimos eso. Con el tiempo y la práctica es posible
+        alcanzar una gran maestría en esto de recordar los sueños, como lo
+        comentamos en el artículo anterior. Practicantes avanzados, incluso son
+        capaces de mantener la lucidez onírica durante toda la noche, a través
+        de todos los sueños y fases del dormir, pero vamos paso a paso...
       </p>
     </Layout>
   );

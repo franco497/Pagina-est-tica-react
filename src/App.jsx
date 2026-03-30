@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Página principal
 import Home from "./pages/Home";
@@ -30,6 +30,9 @@ import VolarEnLosSueños from "./pages/actividades/VolarEnLosSueños";
 import EnfrentarMiedos from "./pages/actividades/EnfrentarMiedos";
 import ExplorarYDivertirnos from "./pages/actividades/ExplorarYDivertirnos";
 import ProlongarLaLucidez from "./pages/actividades/ProlongarLaLucidez";
+
+// rutas No Encontrada
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -104,6 +107,7 @@ function App() {
         path="/actividades/prolongar-la-lucidez"
         element={<ProlongarLaLucidez />}
       />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }

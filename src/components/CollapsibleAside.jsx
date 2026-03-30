@@ -1,6 +1,8 @@
+// components/CollapsibleAside.jsx
 import { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { navigationData, getCurrentSection } from "../data/navigationData";
+import FontControls from "./FontControls";
 
 const CollapsibleAside = () => {
   const [isCollapsed, setIsCollapsed] = useState(() => {
@@ -20,6 +22,40 @@ const CollapsibleAside = () => {
     setIsCollapsed(!isCollapsed);
   };
 
+  // Detectar si es tablet para el estado colapsado
+  const [isTablet, setIsTablet] = useState(false);
+
+  useEffect(() => {
+    const checkTablet = () => {
+      const tablet = window.innerWidth >= 541 && window.innerWidth <= 800;
+      setIsTablet(tablet);
+
+      // Si no es tablet, asegurarse de que no esté colapsado
+      if (!tablet && isCollapsed) {
+        setIsCollapsed(false);
+      }
+    };
+
+    checkTablet();
+    window.addEventListener("resize", checkTablet);
+    return () => window.removeEventListener("resize", checkTablet);
+  }, [isCollapsed]);
+
+  // Cargar estado guardado al montar
+  useEffect(() => {
+    const savedState = localStorage.getItem("leftAsideCollapsed");
+    if (savedState !== null && isTablet) {
+      setIsCollapsed(savedState === "true");
+    }
+  }, [isTablet]);
+
+  // Guardar estado específico para aside izquierdo
+  useEffect(() => {
+    if (isTablet) {
+      localStorage.setItem("leftAsideCollapsed", isCollapsed);
+    }
+  }, [isCollapsed, isTablet]);
+
   return (
     <aside
       className={`secondary-navbar collapsible-aside ${isCollapsed ? "collapsed" : ""}`}
@@ -27,7 +63,7 @@ const CollapsibleAside = () => {
       <button
         className="collapse-btn"
         onClick={toggleCollapse}
-        aria-label="Colapsar menú"
+        aria-label={isCollapsed ? "Expandir menú" : "Colapsar menú"}
       >
         <svg
           className="collapse-icon"
@@ -55,6 +91,7 @@ const CollapsibleAside = () => {
             ))}
           </ul>
         </nav>
+        <FontControls />
       </div>
     </aside>
   );

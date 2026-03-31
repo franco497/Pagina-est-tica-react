@@ -40,7 +40,11 @@ Sitio web informativo desarrollado con **React + Vite** que ofrece contenido est
 
 ---
 
-📖 Referencia bibliográfica
+📖 Referencias bibliográficas
 El gran libro de HTML5, CSS3 y Javascript
 Juan Diego Gauchat
 Guía completa sobre las tecnologías fundamentales del desarrollo web moderno.
+
+Eloquent JavaScript (JavaScript Elocuente)
+Marijn Haverbeke
+Libro moderno y práctico que cubre desde fundamentos hasta temas avanzados del lenguaje. Disponible gratuitamente en línea, con enfoque en código claro y eficiente.

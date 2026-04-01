@@ -7,7 +7,7 @@ const Footer = () => {
             <h3 className="footer-name">Franco De Vincentis</h3>
             <img
               className="footer-avatar"
-              src="/src/assets/footer/foto-cv-Franco-De-Vincentis.jfif"
+              src="/images/foto-cv-Franco-De-Vincentis.jfif"
               alt="Franco De Vincentis"
             />
             <div className="footer-link">

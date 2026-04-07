@@ -210,17 +210,6 @@ a:hover {
     overflow: hidden;
   }
 }
-/* Detectar modo oscuro en Samsung Internet y otros navegadores */
-@media (prefers-color-scheme: dark) {
-  .hamburger-line {
-    background-color: #ffcc00; /* Amarillo que contrasta bien */
-  }
-
-  /* También para cuando el botón está activo (menú abierto) */
-  .hamburger-btn.active .hamburger-line {
-    background-color: #ffcc00;
-  }
-}
 
 /* -----------------------------HEADER ENDS----------------------------- */
 

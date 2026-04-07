@@ -68,6 +68,7 @@ p {
 .header {
   background-color: rgb(1, 46, 114);
   padding: 0.625em 0;
+  position: relative; /* 👈 clave */
 }
 
 .main-navbar {
@@ -163,8 +164,8 @@ a:hover {
 
   .main-navbar ul {
     display: none;
-    position: fixed;
-    top: 3.75em;
+    position: absolute;
+    top: 100%;
     left: 0;
     width: 100%;
     background-color: rgb(1, 46, 114);

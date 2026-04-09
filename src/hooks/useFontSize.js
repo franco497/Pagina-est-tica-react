@@ -1,7 +1,5 @@
-// hooks/useFontSize.js
 import { useState, useEffect } from "react";
 
-// Función para detectar tablet
 const isTablet = () => {
   return window.innerWidth >= 541 && window.innerWidth <= 800;
 };
@@ -12,25 +10,21 @@ export const useFontSize = () => {
     return savedSize === "font-large" ? "large" : "medium";
   });
 
-  // Aplicar clases al body
+  // Aplicar o quitar la clase DIRECTAMENTE al main-content
   useEffect(() => {
     const applyFontSize = () => {
-      if (isTablet()) {
-        document.body.classList.remove("font-medium", "font-large");
-        const sizeClass = fontSize === "large" ? "font-large" : "font-medium";
-        document.body.classList.add(sizeClass);
+      const mainContent = document.querySelector(".main-content");
+
+      if (!mainContent) return;
+
+      if (isTablet() && fontSize === "large") {
+        mainContent.classList.add("font-large");
       } else {
-        // Si no es tablet, remover clases
-        document.body.classList.remove("font-medium", "font-large");
+        mainContent.classList.remove("font-large");
       }
     };
 
     applyFontSize();
-  }, [fontSize]);
-
-  // Guardar en localStorage cuando cambie
-  useEffect(() => {
-    localStorage.setItem("fontSize", `font-${fontSize}`);
   }, [fontSize]);
 
   // Manejar resize de ventana
@@ -40,14 +34,14 @@ export const useFontSize = () => {
     const handleResize = () => {
       clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(() => {
-        if (isTablet()) {
-          // Re-aplicar el tamaño actual
-          document.body.classList.remove("font-medium", "font-large");
-          const sizeClass = fontSize === "large" ? "font-large" : "font-medium";
-          document.body.classList.add(sizeClass);
+        const mainContent = document.querySelector(".main-content");
+
+        if (!mainContent) return;
+
+        if (isTablet() && fontSize === "large") {
+          mainContent.classList.add("font-large");
         } else {
-          // Remover clases si no es tablet
-          document.body.classList.remove("font-medium", "font-large");
+          mainContent.classList.remove("font-large");
         }
       }, 150);
     };

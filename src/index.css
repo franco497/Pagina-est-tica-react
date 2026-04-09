@@ -1,34 +1,49 @@
 /* -----------------------------FONT SIZE CONTROL STYLES----------------------------- */
-body.font-large h1 {
+/* 
+  NUEVA ESTRATEGIA: Solo afecta al contenido principal (.main-content)
+  Header, footer y secondary navbar NO se ven afectados
+*/
+
+/* Base aumentada SOLO para el contenido principal */
+.font-large .main-content {
+  font-size: 1.125em; /* 18px si el body base es 16px */
+}
+
+/* Títulos dentro del contenido */
+.font-large .main-content h1 {
   font-size: 1.8em;
 }
 
-body.font-large h2 {
+.font-large .main-content h2 {
   font-size: 1.5em;
 }
 
-body.font-large h3 {
+.font-large .main-content h3 {
   font-size: 1.3em;
 }
 
-body.font-large p,
-body.font-large li,
-body.font-large .citas {
+/* Párrafos, listas y citas dentro del contenido */
+.font-large .main-content p,
+.font-large .main-content li,
+.font-large .main-content .citas {
   font-size: 1em;
 }
 
-body.font-large {
-  font-size: 1.125em;
+/* Asegurar que header, footer y secondary navbar NO escalen */
+.header,
+footer,
+.secondary-navbar {
+  font-size: 1em; /* Fijo en tamaño base */
 }
 
-/* Ajustes específicos para tablet */
-@media screen and (min-width: 541px) and (max-width: 1024px) {
-  body.font-large .main-wrapper,
-  body.font-large .header,
-  body.font-large footer {
-    font-size: inherit;
-  }
+/* Botones de control de fuente no escalan */
+.font-controls {
+  font-size: 1em;
 }
+
+/* ============================================ */
+/* FIN DE CONTROL DE FUENTES                    */
+/* ============================================ */
 
 body {
   margin: 0;
@@ -483,6 +498,39 @@ h1 {
   .collapsible-aside:not(.collapsed) .font-controls {
     padding: 0 0.5em;
   }
+
+  .main-content.font-large {
+    font-size: 1.125em; /* 18px si el body base es 16px */
+  }
+
+  /* Títulos dentro del contenido */
+  .main-content.font-large h1 {
+    font-size: 1.8em;
+  }
+
+  .main-content.font-large h2 {
+    font-size: 1.5em;
+  }
+
+  .main-content.font-large h3 {
+    font-size: 1.3em;
+  }
+
+  /* Párrafos, listas y citas dentro del contenido */
+  .main-content.font-large p,
+  .main-content.font-large li,
+  .main-content.font-large .citas {
+    font-size: 1em;
+  }
+}
+
+/* Asegurar que header, footer y secondary navbar mantengan tamaño base */
+.header,
+footer,
+.secondary-navbar,
+.collapsible-aside,
+.main-wrapper > aside {
+  font-size: 1rem; /* Fijo, no hereda */
 }
 
 @media screen and (max-width: 800px) {

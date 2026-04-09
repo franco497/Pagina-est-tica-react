@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <Header />
       <div className="main-wrapper">
         <CollapsibleAside />
-        <main>{children}</main>
+        <main className="main-content">{children}</main>
         <aside></aside>
       </div>
       <Footer />

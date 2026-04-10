@@ -111,6 +111,9 @@ p {
   cursor: pointer;
   padding: 0;
   z-index: 1001;
+  /* Integración aquí: bloquea inversión automática de colores */
+  color-scheme: light;
+  color: #222; /* color sólido por si hay texto futuro */
 }
 
 .hamburger-line {

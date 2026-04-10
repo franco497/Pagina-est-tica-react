@@ -4,6 +4,11 @@
   Header, footer y secondary navbar NO se ven afectados
 */
 
+/*parche para asegurar que el modo oscuro no afecte el botón de hamburguesa*/
+html {
+  color-scheme: light !important;
+}
+
 /* Base aumentada SOLO para el contenido principal */
 .font-large .main-content {
   font-size: 1.125em; /* 18px si el body base es 16px */

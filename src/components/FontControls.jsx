@@ -1,4 +1,3 @@
-// components/FontControls.jsx
 import { useEffect, useState } from "react";
 import { useFontSize } from "../hooks/useFontSize";
 
@@ -19,33 +18,43 @@ const FontControls = () => {
   // Solo mostrar en tablet
   if (!isTabletState) return null;
 
-  const handleChange = (e) => {
-    changeFontSize(e.target.value);
-  };
-
   return (
     <div className="font-controls">
-      <label className="font-option">
-        <input
-          type="radio"
-          name="font-size"
-          value="medium"
-          checked={fontSize === "medium"}
-          onChange={handleChange}
-        />
-        <span>Estándar</span>
-      </label>
+      <div className="font-controls-title">Tamaño de texto</div>
+      <div className="font-controls-buttons">
+        <label className="font-option">
+          <input
+            type="radio"
+            name="font-size"
+            value="medium"
+            checked={fontSize === "medium"}
+            onChange={(e) => changeFontSize(e.target.value)}
+          />
+          <span>Estándar</span>
+        </label>
 
-      <label className="font-option">
-        <input
-          type="radio"
-          name="font-size"
-          value="large"
-          checked={fontSize === "large"}
-          onChange={handleChange}
-        />
-        <span>Grande</span>
-      </label>
+        <label className="font-option">
+          <input
+            type="radio"
+            name="font-size"
+            value="large"
+            checked={fontSize === "large"}
+            onChange={(e) => changeFontSize(e.target.value)}
+          />
+          <span>Grande</span>
+        </label>
+
+        <label className="font-option">
+          <input
+            type="radio"
+            name="font-size"
+            value="xlarge"
+            checked={fontSize === "xlarge"}
+            onChange={(e) => changeFontSize(e.target.value)}
+          />
+          <span>Muy grande</span>
+        </label>
+      </div>
     </div>
   );
 };

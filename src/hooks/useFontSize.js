@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+// Función para detectar tablet
 const isTablet = () => {
   return window.innerWidth >= 541 && window.innerWidth <= 800;
 };
@@ -7,7 +8,10 @@ const isTablet = () => {
 export const useFontSize = () => {
   const [fontSize, setFontSize] = useState(() => {
     const savedSize = localStorage.getItem("fontSize");
-    return savedSize === "font-large" ? "large" : "medium";
+    // Soporte para tres tamaños: medium, large, xlarge
+    if (savedSize === "font-large") return "large";
+    if (savedSize === "font-xlarge") return "xlarge";
+    return "medium";
   });
 
   // Aplicar o quitar la clase DIRECTAMENTE al main-content
@@ -17,10 +21,16 @@ export const useFontSize = () => {
 
       if (!mainContent) return;
 
-      if (isTablet() && fontSize === "large") {
-        mainContent.classList.add("font-large");
-      } else {
-        mainContent.classList.remove("font-large");
+      // Remover todas las clases de tamaño
+      mainContent.classList.remove("font-large", "font-xlarge");
+
+      // Aplicar la clase correspondiente solo si es tablet
+      if (isTablet()) {
+        if (fontSize === "large") {
+          mainContent.classList.add("font-large");
+        } else if (fontSize === "xlarge") {
+          mainContent.classList.add("font-xlarge");
+        }
       }
     };
 
@@ -38,10 +48,14 @@ export const useFontSize = () => {
 
         if (!mainContent) return;
 
-        if (isTablet() && fontSize === "large") {
-          mainContent.classList.add("font-large");
-        } else {
-          mainContent.classList.remove("font-large");
+        mainContent.classList.remove("font-large", "font-xlarge");
+
+        if (isTablet()) {
+          if (fontSize === "large") {
+            mainContent.classList.add("font-large");
+          } else if (fontSize === "xlarge") {
+            mainContent.classList.add("font-xlarge");
+          }
         }
       }, 150);
     };

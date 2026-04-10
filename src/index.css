@@ -125,6 +125,13 @@ p {
   transition: all 0.3s ease;
 }
 
+/* Parche fuerza modo claro específicamente para el botón */
+@media (prefers-color-scheme: dark) {
+  .hamburger-line {
+    background-color: #fff !important;
+  }
+}
+
 .main-navbar ul {
   display: flex;
   padding: 0;
@@ -344,14 +351,6 @@ h1 {
   padding-bottom: 0.625em;
   margin-bottom: 1.25em;
 }
-
-/* Contenedor de controles de fuente */
-/* .font-controls {
-  display: none;
-  margin-top: 1.25em;
-  gap: 0.625em;
-  justify-content: center;
-} */
 
 /* Botones de control de fuente */
 .font-controls button {

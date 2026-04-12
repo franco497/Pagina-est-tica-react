@@ -27,7 +27,7 @@ const CollapsibleAside = () => {
 
   useEffect(() => {
     const checkTablet = () => {
-      const tablet = window.innerWidth >= 541 && window.innerWidth <= 800;
+      const tablet = window.innerWidth >= 541 && window.innerWidth <= 900;
       setIsTablet(tablet);
 
       // Si no es tablet, asegurarse de que no esté colapsado

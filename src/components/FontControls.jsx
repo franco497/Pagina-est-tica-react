@@ -1,3 +1,4 @@
+// FontControls.jsx
 import { useEffect, useState } from "react";
 import { useFontSize } from "../hooks/useFontSize";
 
@@ -8,12 +9,18 @@ const FontControls = () => {
   // Detectar cambios de tamaño de ventana
   useEffect(() => {
     const handleResize = () => {
-      setIsTabletState(window.innerWidth >= 541 && window.innerWidth <= 800);
+      const tablet = window.innerWidth >= 541 && window.innerWidth <= 900;
+      setIsTabletState(tablet);
     };
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // 👈 NUEVO: Debug para ver el estado actual
+  useEffect(() => {
+    console.log("FontControls - fontSize actual:", fontSize);
+  }, [fontSize]);
 
   // Solo mostrar en tablet
   if (!isTabletState) return null;
@@ -28,7 +35,7 @@ const FontControls = () => {
             name="font-size"
             value="medium"
             checked={fontSize === "medium"}
-            onChange={(e) => changeFontSize(e.target.value)}
+            onChange={() => changeFontSize("medium")}
           />
           <span>Estándar</span>
         </label>
@@ -39,7 +46,7 @@ const FontControls = () => {
             name="font-size"
             value="large"
             checked={fontSize === "large"}
-            onChange={(e) => changeFontSize(e.target.value)}
+            onChange={() => changeFontSize("large")}
           />
           <span>Grande</span>
         </label>
@@ -50,7 +57,7 @@ const FontControls = () => {
             name="font-size"
             value="xlarge"
             checked={fontSize === "xlarge"}
-            onChange={(e) => changeFontSize(e.target.value)}
+            onChange={() => changeFontSize("xlarge")}
           />
           <span>Muy grande</span>
         </label>

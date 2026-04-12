@@ -438,7 +438,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 541px) and (max-width: 800px) {
+@media screen and (min-width: 541px) and (max-width: 900px) {
   .collapse-btn {
     display: block;
   }
@@ -544,7 +544,7 @@ h1 {
   .collapsible-aside:not(.collapsed) .font-controls {
     padding: 0 0.5em;
   }
-
+  /* Tamaño Grande */
   .main-content.font-large {
     font-size: 1.125em; /* 18px si el body base es 16px */
   }
@@ -602,7 +602,7 @@ footer,
   font-size: 1rem; /* Fijo, no hereda */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   aside:last-child {
     display: none;
   }

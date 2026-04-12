@@ -9,7 +9,7 @@ Sitio web informativo desarrollado con **React + Vite** que ofrece contenido est
 
 - **Doble sistema de navegación** – Menú principal estático + menú lateral dinámico que se adapta al contenido.
 - **Aside colapsable en tablet** – Optimizado para mejorar la experiencia de lectura en dispositivos medianos.
-- **Control de tamaño de fuente** – Opciones estándar y grande con persistencia en `localStorage`.
+- **Control de tamaño de fuente** – Opciones estándar, grande y muy grande con persistencia en `localStorage`.
 - **Diseño responsive** – Adaptado a móviles, tablets y escritorio.
 - **Enrutamiento completo** – Navegación fluida con React Router DOM.
 

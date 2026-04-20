@@ -7,6 +7,7 @@ Sitio web informativo desarrollado con **React + Vite** que ofrece contenido est
 
 ## ✨ Características principales
 
+- 🖥️ **Desktop First** – Estrategia de diseño que prioriza escritorio y se adapta responsivamente a tablets y móviles.
 - **Doble sistema de navegación** – Menú principal estático + menú lateral dinámico que se adapta al contenido.
 - **Aside colapsable en tablet** – Optimizado para mejorar la experiencia de lectura en dispositivos medianos.
 - **Control de tamaño de fuente** – Opciones estándar, grande y muy grande con persistencia en `localStorage`.
